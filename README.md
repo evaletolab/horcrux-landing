@@ -1,7 +1,12 @@
 # 1. Mission
 Démocratiser l’accès à un plan d’épargne, sur le long terme, basé sur les deux principales crypto-monnaies.  
 
->Nous vous aidons à créer un plan d’épargne simple et sécurisé dont vous êtes le seul à avoir l'accès. Ensuite, avec notre partenaire bancaire, nous facilitons l’établissement d’un ordre de virement régulier pour constituer votre épargne en crypto monnaies. 
+>Nous vous proposons un plan d’épargne en crypto-monnaie simple et sécurisé dont vous êtes le seul à avoir l'accès. Avec notre service, c'est très simple, vous constituez votre épargne avec un ordre de virement régulier auprès de notre partenaire bancaire. Vous épargnez à votre rythme et selon les modalités de votre choix.
+
+>Nous proposons au grand public l’accès 
+aux deux principales crypto-monnaies (BTC,ETH)  
+sans intermédiaire, pour une épargne à long terme, 
+avec une très grande sécurité. 
 
 try the demo, https://evaletolab.github.io/horcrux-landing/
 
