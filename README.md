@@ -12,7 +12,7 @@ avec une très grande sécurité.
 
 try the demo, https://evaletolab.github.io/horcrux-landing/
 
-# 2. Le client 
+# 3. Le profil type 
 Le client souhaite saisir l'opportunité mais n'a aucune idée de la prise en main. Il a besoin d'être rassuré avec les points suivants:
 
 ## La Potentiel
