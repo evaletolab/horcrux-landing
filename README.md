@@ -18,7 +18,7 @@ Le client souhaite saisir l'opportunité mais n'a aucune idée de la prise en ma
 ## La Potentiel
 TODO, montrer le potentiel d'épargne BTC/ETH  sur 10 ans, le modest x10, l'optimiste x30
 
-## L'utilisation de votre capital
+## Libération capital
 Blah
 
 ## La Confiance
