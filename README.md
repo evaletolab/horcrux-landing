@@ -3,7 +3,7 @@ Démocratiser l’accès à un plan d’épargne, sur le long terme, basé sur l
 
 # 2. Solution
 
->Nous vous proposons un plan d’épargne simple et sécurisé dont vous êtes le seul à avoir l'accès. Avec notre service, vous constituez votre épargne avec un ordre de virement régulier auprès de notre partenaire bancaire. Vous épargnez à votre rythme et selon les modalités de votre choix.
+>Nous vous proposons un plan d’épargne simple et sécurisé dont vous êtes le seul à avoir l'accès. Avec notre service, vous constituez votre épargne avec un ordre de virement régulier auprès de notre partenaire bancaire. Vous épargnez à votre rythme et selon les modalités de votre choix et vous choisissez le meilleur moment pour en bénéficier.
 
 >Nous proposons au grand public l’accès 
 aux deux principales crypto-monnaies (BTC,ETH)  
@@ -17,6 +17,9 @@ Le client souhaite saisir l'opportunité mais n'a aucune idée de la prise en ma
 
 ## La Potentiel
 TODO, montrer le potentiel d'épargne BTC/ETH  sur 10 ans, le modest x10, l'optimiste x30
+
+## L'utilisation de votre capital
+Blah
 
 ## La Confiance
 La solution à été développée en partenariat avec la société Bity.com régulée par la FINMA. Nous n’agissons pas comme un intermédiaire, toutes les transactions sont procédés par notre partenaire Bity.com. Notre rôle ici est de vous fournir le service nécessaire à la sécurisation de vos fonds sur le long terme. Notre service peut disparaître, tout comme l’entreprise Bity.com sans affecter votre épargne. Après chaque transaction, vous êtes maître à 100% de vos fonds, partout dans le monde, vous êtes la banque. 
