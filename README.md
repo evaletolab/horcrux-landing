@@ -35,3 +35,7 @@ Nous pensons que la crypto-monnaie s’est installée pour durer. C’est princi
 Vous épargnez à votre rythme, selon les modalités de votre choix. C’est un peu comparable à un projet d’assurance vie : préparer votre retraite, mettre à l'abri vos proches en cas de décès, prévoir des prestations en cas d'invalidité, etc.
 Notre stratégie d’épargne pour vous est simple et modérée. Il ne s'agit pas de mettre en danger votre situation économique,  nous recommandons un calcul simple, placé 1% de vos revenus mensuels est largement suffisant. 
 
+# Mockup v0.1
+![piggybank.swiss](https://user-images.githubusercontent.com/1422935/194575168-c2ce99ec-3540-4ea3-8270-5765ebe35995.png)
+
+
