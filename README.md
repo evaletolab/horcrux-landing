@@ -14,7 +14,7 @@ try the demo, https://evaletolab.github.io/horcrux-landing/
 Le client souhaite saisir l'opportunité mais n'a aucune idée de la prise en main. Il a besoin d'être rassuré avec les points suivants:
 
 ## La Potentiel
-
+TODO, montrer le potentiel d'épargne BTC/ETH  sur 10 ans, le modest x10, l'optimiste x30
 
 ## La Confiance
 La solution à été développée en partenariat avec la société Bity.com régulée par la FINMA. Nous n’agissons pas comme un intermédiaire, toutes les transactions sont procédés par notre partenaire Bity.com. Notre rôle ici est de vous fournir le service nécessaire à la sécurisation de vos fonds sur le long terme. Notre service peut disparaître, tout comme l’entreprise Bity.com sans affecter votre épargne. Après chaque transaction, vous êtes maître à 100% de vos fonds, partout dans le monde, vous êtes la banque. 
