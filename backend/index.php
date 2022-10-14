@@ -8,10 +8,6 @@ use Monolog\Handler\StreamHandler;
 
 require_once('vendor/autoload.php');
 
-// $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__ . "/env");
-// $dotenv->load();
-
-
 $app = new \Slim\App;
 
 // inject dependencies
@@ -26,16 +22,9 @@ $container['logger'] = function($c) {
     return $logger;
 };
 
-// $container['subscriptionService'] = function($c) {
-//     $productService = new ProductService();
-//     return $productService;
-// };
-
-// $app->options('/{routes:.+}', function ($request, $response, $args) {
-//     return $response;
-// });
-
-
+/**
+ * cors settings
+ */
 $app->add(function (Request $req, Response $res, $next) {
     $response = $next($req, $res);
     
@@ -45,10 +34,9 @@ $app->add(function (Request $req, Response $res, $next) {
             ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
 });
 
+
 /////////////////////////
 // routes
-
-
 $app->post('/request-subscription', function(Request $request, Response $response, array $args){
     $body = json_decode($request->getBody(), true);
     

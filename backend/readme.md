@@ -12,7 +12,7 @@ $ composer dump-autoload
 ## run locally
 
 ```
-$ php -S 0.0.0.0:8080
+$ ./run-dev.sh
 ```
 
 ## build
