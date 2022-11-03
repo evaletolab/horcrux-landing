@@ -16,8 +16,8 @@
     <div class="right-container">
       <div class="content">
         <h1>piggybank.swiss</h1>
-        <p>L’accès aux monnaies numériques pour tous, avec 
-          des petits montants, de manière simple et sécurisée. 
+        <p>C'est l’accès aux monnaies numériques pour tous, avec 
+          des petits montants, de manière simple et sécurisée pour un objectif à long terme. 
           Nous vous aidons à monter votre propre plan d’épargne 
           numérique. 
         </p>
