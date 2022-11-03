@@ -36,6 +36,7 @@ Vous épargnez à votre rythme, selon les modalités de votre choix. C’est un 
 Notre stratégie d’épargne pour vous est simple et modérée. Il ne s'agit pas de mettre en danger votre situation économique,  nous recommandons un calcul simple, placé 1% de vos revenus mensuels est largement suffisant. 
 
 # Mockup v0.1
-![piggybank.swiss](https://user-images.githubusercontent.com/1422935/194575168-c2ce99ec-3540-4ea3-8270-5765ebe35995.png)
+
+![piggybank.swiss](https://user-images.githubusercontent.com/1422935/199764515-3519155d-ea22-40b8-ad17-7a2ea91d7565.png)
 
 
