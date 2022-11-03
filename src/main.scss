@@ -1,13 +1,14 @@
 
 :root {
-  --md-theme-default-primary:#fff;
-  --md-theme-default-primary-text:#000203;
-  --md-theme-default-secondary:#eee;
-  --md-theme-default-secondary-text:#000203;
-  --md-theme-default-tertiary:#63a1d9;
-  --md-theme-default-tertiary-text:#000203;
-  --md-theme-toolbar-height:40px;
-  --md-theme-max-with:500px;
+  --toolbar-height:40px;
+  --max-with:500px;
+
+  --color-primary:	#0c2e5a;	
+  --color-secondary:	rgba(39, 80, 233 ,0.75);	
+  --color-tertiary:	#606c76;	
+  --color-quaternary:	#d1d1d1;	
+  --color-quinary:	#e1e1e1;	
+  --color-initial:	#ffffff;  
 }
 
 
@@ -16,13 +17,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  font-size: 18px;
   color: #2c3e50;
-  margin: auto;
-  max-width: 80rem;
-  font-family: 'Roboto', serif;
-  @media (max-width:500px) {
-    text-align: left;    
-  }
+  margin: 0;
+  height: 100vh;
+}
+
+input:focus[type='email']{
+  border-color: var(--color-primary);     
+}
+
+button{
+  background-color: var(--color-primary);     
+  border-color: var(--color-primary);     
+}
+
+a{
+  color: var(--color-secondary);     
+  border-bottom: 2px dotted var(--color-quinary);
 }
 
 .body-lock{
@@ -52,7 +64,7 @@ ol{
   background-color: rgb(175 184 193 / 20%);
   border-radius: 6px;    
   overflow: hidden;
-  wmax-width: 300px;
+  max-width: 300px;
   text-overflow: ellipsis;
 }
 
