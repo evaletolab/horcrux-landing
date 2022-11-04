@@ -3,7 +3,7 @@ const execa = require("execa");
 const fs = require("fs");
 (async () => {
   try {
-    const branch = await execa('git rev-parse --abbrev-ref HEAD');
+    const branch = await execa('git', ['rev-parse', '--abbrev-ref', 'HEAD']);
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     // eslint-disable-next-line no-console
     console.log("Building started...");
