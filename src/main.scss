@@ -17,7 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  font-size: 18px;
   color: #2c3e50;
   margin: 0;
   height: 100vh;
@@ -32,9 +31,29 @@ button{
   border-color: var(--color-primary);     
 }
 
+button:hover{
+  background-color: var(--color-secondary)!important;
+  filter: brightness(110%) saturate(140%);                    
+  border-color: var(--color-primary)!important;
+  cursor: pointer;
+}
+
+
 a{
   color: var(--color-secondary);     
   border-bottom: 2px dotted var(--color-quinary);
+}
+
+a:hover{
+  color: var(--color-primary);
+  filter: brightness(110%) saturate(140%);                    
+  border-bottom: 2px solid var(--color-primary);
+}
+
+
+ul{
+  list-style: none;
+  margin-bottom: 50px;
 }
 
 .body-lock{

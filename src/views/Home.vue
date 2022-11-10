@@ -1,6 +1,11 @@
 <template>
   <div class="home">
     <div class="left-container">
+      <div class="header">
+        <h1>piggybank.swiss</h1>
+        <p>Votre plan d’épargne en monnaies numériques</p>
+      </div>
+        
       <div class="piggybank">
         <img src="@/assets/piggybank.png"/>
       </div>
@@ -15,24 +20,31 @@
     </div>
     <div class="right-container">
       <div class="content">
-        <h1>piggybank.swiss</h1>
-        <p>C'est l’accès aux monnaies numériques pour tous, avec 
-          des petits montants, de manière simple et sécurisée pour un objectif à long terme. 
-          Nous vous aidons à monter votre propre plan d’épargne 
-          numérique. 
+        <h1>Avec des petits montants, de manière simple et sécurisée
+        </h1>
+        <p>
+          Nous vous aidons à assurer la sécurité et la pérennité 
+          de l’accès à votre capital, à vous, votre famille, votre entreprise. 
+          <b>Piggybank.swiss</b>, c’est votre tirelire numérique. 
         </p>
 
         <ul>
-          <li><a href="#">Une solution innovante</a></li>
+          <li><a href="#">Pour les particuliers, un moyen d'épargner</a></li>
+          <li><a href="#">Pour les petites entreprises, une solution pour votre trésorerie</a></li>
           <li><a href="#">Un service 100% Suisse</a></li>
-          <li><a href="#">Confiance & sécurité</a></li>
-          <li><a href="#">Calculer votre participation</a></li>
+          <li><a href="#">Confiance, sécurité & 100% anonyme</a></li>
+          <li><a href="#">Un investissement pour du long terme</a></li>
         </ul>
 
         <div class="action">
-
-            <input v-model="email" placeholder="enter email" type="email" required />
-            <button class="large" @click="submit"  v-bind:disabled="!validateEmail()" >JE SUIS INTERRESSE.E</button>
+            <p>
+              Partagez-nous votre intérêt, les 100 premiers bénéfécieront 
+              d'un rabais de 50% sur les frais de services pendant 24 mois
+            </p>
+            <div class="form">
+              <input v-model="email" placeholder="Votre adresse email" type="email" required />
+              <button class="large" @click="submit"  v-bind:disabled="!validateEmail()" >OK</button>
+            </div>
         </div>
       </div>
     </div>    
@@ -53,6 +65,14 @@
     .right-container,
     .left-container {
       width: 50vw;
+      .header{
+        h1{
+          font-weight: 600;
+          margin-bottom: 15px;
+          line-height: 1.1;
+          font-size: 4.3rem;          
+        }
+      }
     }
 
     @media (max-width:1024px) {
@@ -87,23 +107,47 @@
       flex-direction: column;
       justify-content: center;      
       padding: 40px;
+      color: var(--color-primary);
+
       h1{
         font-weight: 600;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        line-height: 1.1;
+        font-size: 4.1rem;
       }
 
       div.content{
         max-width: 700px;
+        p{
+          margin-bottom: 40px;
+        }
 
         div.action{
-          width: 300px;
+          margin-top: 100px;
+          p{
+            margin-bottom: 10px;
+          }
+          .form{
+            display: flex;
+            width: 400px;
+            input{
+              font-size: 1.4rem;
+              height: 4.5rem;
+              line-height: 4.5rem;
+              padding: 0 2rem;
+              border-radius: 4px 0 0 4px;
+              border-right: 0;
+            }
+            button{
+              font-size: 1.4rem;
+              height: 4.5rem;
+              line-height: 4.5rem;
+              padding: 0 2rem;
+              border-radius: 0 4px 4px 0;
+            }
+          }
         }
       }
-    }
-
-    ul{
-      list-style: none;
-      margin-bottom: 50px;
     }
 
     button.large{
