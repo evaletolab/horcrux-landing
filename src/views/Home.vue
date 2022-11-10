@@ -141,6 +141,7 @@
               padding: 0 2rem;
               border-radius: 4px 0 0 4px;
               border-right: 0;
+              border-width: 2px;
             }
             button{
               font-size: 1.4rem;
@@ -148,6 +149,7 @@
               line-height: 4.5rem;
               padding: 0 2rem;
               border-radius: 0 4px 4px 0;
+              border-width: 2px;
             }
           }
         }
