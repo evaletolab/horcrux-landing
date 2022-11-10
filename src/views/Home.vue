@@ -61,6 +61,9 @@
     @media (max-width:1024px) {
       flex-direction: column;
     }
+    @media (min-width:1024px) {
+      height: 50vh;
+    }
 
     .right-container,
     .left-container {

@@ -20,6 +20,9 @@ body {
   color: #2c3e50;
   margin: 0;
   height: 100vh;
+  @media (min-width:2000px) {
+    zoom:2;
+  }
 }
 
 input:focus[type='email']{
