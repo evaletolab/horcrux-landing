@@ -84,7 +84,7 @@
     }
 
     .left-container {
-      max-width: 1024px;
+      max-width: 600px;
       color: white;   
       background: var(--color-primary);
 
