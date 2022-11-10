@@ -61,7 +61,8 @@
     @media (max-width:1024px) {
       flex-direction: column;
     }
-    @media (min-width:1024px) {
+
+    @media (min-width:2024px) {
       height: 50vh;
     }
 
@@ -134,7 +135,7 @@
             display: flex;
             width: 400px;
             input{
-              font-size: 1.4rem;
+              font-size: 1.7rem;
               height: 4.5rem;
               line-height: 4.5rem;
               padding: 0 2rem;
