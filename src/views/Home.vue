@@ -28,13 +28,13 @@
           <b>Piggybank.swiss</b>, c’est votre tirelire numérique. 
         </p>
 
-        <ul>
+        <ol>
           <li><a href="#">Pour les particuliers, un moyen d'épargner</a></li>
           <li><a href="#">Pour les petites entreprises, une solution pour votre trésorerie</a></li>
           <li><a href="#">Un service 100% Suisse</a></li>
           <li><a href="#">Confiance, sécurité & 100% anonyme</a></li>
           <li><a href="#">Un investissement pour du long terme</a></li>
-        </ul>
+        </ol>
 
         <div class="action">
             <p>
@@ -75,6 +75,10 @@
           margin-bottom: 15px;
           line-height: 1.1;
           font-size: 4.3rem;          
+
+          @media (max-width:429px) {
+            font-size: 4.1rem;          
+          }
         }
       }
     }
@@ -135,6 +139,11 @@
             display: flex;
             width: 400px;
             margin-left: -10px;
+            @media (max-width:429px) {
+              width: calc(100% + 40px);
+              margin-left: -20px;
+              margin-right: -20px;
+            }
             input{
               font-size: 1.7rem;
               height: 5.5rem;
