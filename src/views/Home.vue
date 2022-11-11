@@ -25,7 +25,7 @@
         <p>
           Nous vous aidons à assurer la sécurité et la pérennité 
           de l’accès à votre capital, à vous, votre famille, votre entreprise. 
-          <b>Piggybank.swiss</b>, c’est votre tirelire numérique. 
+          <b class="marker-yellow">Piggybank.swiss</b>, c’est votre tirelire numérique. 
         </p>
 
         <ul>

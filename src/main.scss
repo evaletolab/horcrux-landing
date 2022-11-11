@@ -9,6 +9,7 @@
   --color-quaternary:	#d1d1d1;	
   --color-quinary:	#e1e1e1;	
   --color-initial:	#ffffff;  
+  --color-marker: rgba(255, 255, 0, 0.8)
 }
 
 
@@ -59,6 +60,11 @@ ul{
   list-style: none;
   margin-bottom: 50px;
   font-size: 1.7rem;
+}
+
+.marker-yellow{
+  box-shadow: var(--color-marker) 10px 10px 0 3px, var(--color-marker) -2px -2px 0 4px;
+  background: var(--color-marker);  
 }
 
 .body-lock{
