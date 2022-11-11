@@ -136,8 +136,8 @@
             width: 400px;
             input{
               font-size: 1.7rem;
-              height: 4.5rem;
-              line-height: 4.5rem;
+              height: 5.5rem;
+              line-height: 5.5rem;
               padding: 0 2rem;
               border-radius: 4px 0 0 4px;
               border-right: 0;
@@ -145,8 +145,8 @@
             }
             button{
               font-size: 1.4rem;
-              height: 4.5rem;
-              line-height: 4.5rem;
+              height: 5.5rem;
+              line-height: 5.5rem;
               padding: 0 2rem;
               border-radius: 0 4px 4px 0;
               border-width: 2px;
