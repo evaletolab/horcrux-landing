@@ -16,23 +16,31 @@ import Checkbox from '@/components/Checkbox.vue';
 import { Options, Vue } from 'vue-class-component';
 
 @Options({
+  props:{
+    interests:{
+      default:[],
+      type: Array,
+    }
+  },
   components: {
     Checkbox,
   }
 })
 export default class Interests extends Vue {
-
-  interests = ["tirelire numérique", "plan d'épargne", "trésorerie PME" ];
-  // checkbox state saved in bitfield
-  bitfield = 0;
+  interests: string[] = [];
+  selectedInterests:string[] = [];
 
   onInput({checked, value}: {checked: boolean, value: string}){
-    const index = this.interests.indexOf(value);
     if(checked){
-      this.bitfield |= (1 << index);
+      this.selectedInterests.push(value);
     }else{
-      this.bitfield &= ~(1 << index);
+      const index = this.selectedInterests.indexOf(value);
+      if(index > -1){
+        this.selectedInterests.splice(index, 1);
+      }
     }
+
+    this.$emit("onInterestsUpdate", { selectedInterests: this.selectedInterests.slice()});
   }
 }
 </script>
