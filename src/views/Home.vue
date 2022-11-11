@@ -134,6 +134,7 @@
           .form{
             display: flex;
             width: 400px;
+            margin-left: -10px;
             input{
               font-size: 1.7rem;
               height: 5.5rem;
