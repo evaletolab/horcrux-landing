@@ -25,7 +25,7 @@
         <p>
           Nous vous aidons à assurer la sécurité et la pérennité 
           de l’accès à votre capital, à vous, votre famille, votre entreprise. 
-          <b class="">Piggybank.swiss</b>, c’est votre <span class="marker-yellow">tirelire numérique</span> . 
+          <b>Piggybank.swiss</b>, c’est votre tirelire numérique. 
         </p>
 
         <ul>
@@ -39,7 +39,7 @@
         <div class="action">
             <p>
               Partagez-nous votre intérêt, les 100 premiers bénéfécieront 
-              d'un rabais de 50% sur les frais de services pendant 24 mois
+              d'un <span class="marker-yellow">rabais de 50%</span> sur les frais de services pendant 24 mois
             </p>
             <div class="form">
               <input v-model="email" placeholder="Votre adresse email" type="email" required />
