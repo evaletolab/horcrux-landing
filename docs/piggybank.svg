@@ -573,7 +573,7 @@
      id="g1299"
      inkscape:groupmode="layer"
      inkscape:label="v2.0"
-     style="display:inline">
+     style="display:none">
     <rect
        y="86.845245"
        x="0"
@@ -621,7 +621,7 @@
          sodipodi:role="line"
          id="tspan1341">de l’accès à votre capital, à vous, votre famille, votre entreprise. </tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.38089323px;line-height:125.99999905%;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';text-align:start;text-anchor:start;fill:#555555;fill-opacity:1;stroke-width:0.18253723px"
-         y="153.65985"
+         y="153.55406"
          x="163.44125"
          sodipodi:role="line"
          id="tspan1343"><tspan
@@ -1049,7 +1049,7 @@
          id="tspan24457">d'un rabais de 50% sur les frais de services pendant 24 mois</tspan></text>
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="v2.0 - open"
      inkscape:groupmode="layer"
      id="g1805"
