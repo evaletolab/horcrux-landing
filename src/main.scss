@@ -1,13 +1,15 @@
 
 :root {
-  --md-theme-default-primary:#fff;
-  --md-theme-default-primary-text:#000203;
-  --md-theme-default-secondary:#eee;
-  --md-theme-default-secondary-text:#000203;
-  --md-theme-default-tertiary:#63a1d9;
-  --md-theme-default-tertiary-text:#000203;
-  --md-theme-toolbar-height:40px;
-  --md-theme-max-with:500px;
+  --toolbar-height:40px;
+  --max-with:500px;
+
+  --color-primary:	#0c2e5a;	
+  --color-secondary:	rgba(39, 80, 233 ,0.75);	
+  --color-tertiary:	#606c76;	
+  --color-quaternary:	#d1d1d1;	
+  --color-quinary:	#e1e1e1;	
+  --color-initial:	#ffffff;  
+  --color-marker: rgba(255, 255, 0, 0.8)
 }
 
 
@@ -17,12 +19,85 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin: auto;
-  max-width: 80rem;
-  font-family: 'Roboto', serif;
-  @media (max-width:500px) {
-    text-align: left;    
+  margin: 0;
+  height: 100vh;
+  letter-spacing: -.01;
+  font-size: 1.7em;
+  @media (min-width:2000px) {
+    zoom:2;
+    font-size: 18px;
   }
+}
+
+input:focus[type='email']{
+  border-color: var(--color-primary);     
+}
+
+button{
+  background-color: var(--color-primary);     
+  border-color: var(--color-primary);     
+}
+
+button:hover{
+  background-color: var(--color-secondary)!important;
+  filter: brightness(110%) saturate(140%);                    
+  border-color: var(--color-primary)!important;
+  cursor: pointer;
+}
+
+
+a{
+  color: var(--color-secondary);     
+  border-bottom: 2px dotted var(--color-quinary);
+}
+
+a:hover{
+  color: var(--color-primary);
+  filter: brightness(110%) saturate(140%);                    
+  border-bottom: 2px solid var(--color-primary);
+}
+
+ol,ul{
+  list-style: none;
+  margin-bottom: 50px;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  li{
+    margin-bottom: 1.2rem;
+  }
+}
+
+ol {
+  list-style: none;
+  list-style-type:none!important;
+  counter-reset: my-awesome-counter;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+}
+ol li::before {
+  content: counter(my-awesome-counter) ".";
+  font-weight: bold;
+  color: var(--color-primary);
+  border-radius: 0px;
+  display: inline-block;
+  width: 28px;
+  text-align: center;
+  height: 28px;
+  padding-top: 5px;
+  margin-right: 0px;
+  margin-left: -18px;
+  opacity: .8;
+  @media (max-width:429px) {
+    margin-right: 0px;
+    margin-left: -28px;
+  }
+
+}
+
+.marker-yellow{
+  box-shadow: var(--color-marker) 10px 10px 0 3px, var(--color-marker) -2px -2px 0 4px;
+  background: var(--color-marker);  
 }
 
 .body-lock{
@@ -52,7 +127,7 @@ ol{
   background-color: rgb(175 184 193 / 20%);
   border-radius: 6px;    
   overflow: hidden;
-  wmax-width: 300px;
+  max-width: 300px;
   text-overflow: ellipsis;
 }
 
