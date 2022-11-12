@@ -101,6 +101,10 @@
       justify-content: flex-end;      
 
       padding: 40px;
+      @media (max-width:429px) {
+        padding: 30px;
+      }
+
 
       .piggybank{
         text-align: center;
@@ -116,6 +120,9 @@
       justify-content: center;      
       padding: 40px;
       color: var(--color-primary);
+      @media (max-width:429px) {
+        padding: 30px;
+      }
 
       h1{
         font-weight: 600;
